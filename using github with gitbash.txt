@@ -1,0 +1,77 @@
+dxdiag
+
+
+
+
+$ cd desktop/
+
+$ mkdir ...
+
+$ cd mytrial/
+
+$ notepad aboutme.txt
+
+$ git init -b main
+
+$ git add .
+
+$ git commit -m "first commit"
+Author identity unknown
+
+///*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+///fatal: unable to auto-detect email address (got 'LENOVO@DESKTOP-9R2MIHT.(none)')
+
+$ git config --global user.email "j.anaman348620@presbyuniversity.edu.gh"
+
+$ git config --global user.name "soulzojay"
+
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=j.anaman348620@presbyuniversity.edu.gh
+user.name=soulzojay
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+$ git commit -m "first commit"
+
+$ git remote add origin https://github.com/soulzojay/ML-Assignments.git
+
+$ git remote -v
+origin  https://github.com/soulzojay/ML-Assignments.git (fetch)
+origin  https://github.com/soulzojay/ML-Assignments.git (push)
+
+$ git push origin main
+
+$ git push origin main
+
+$ git add .
+
+$ git commit -m "second commit"
+
+$ git push origin main
